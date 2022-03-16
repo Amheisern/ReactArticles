@@ -1,7 +1,11 @@
 import React from 'react'
 
+type NewsArticleProps = {
+  title: string
+  body: string
+}
 // export -- is so we can use the outside of this file
-export function NewsArticle(props) {
+export function NewsArticle(props: NewsArticleProps) {
   return (
     <article className="intro-article">
       <h2 className="article-title">{props.title}</h2>
