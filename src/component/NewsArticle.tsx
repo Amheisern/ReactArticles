@@ -7,7 +7,7 @@ type NewsArticleProps = {
 // export -- is so we can use the outside of this file
 export function NewsArticle(props: NewsArticleProps) {
   return (
-    <article className="intro-article">
+    <article>
       <h2 className="article-title">{props.title}</h2>
       <p>{props.body}</p>
       <a className="read-more" href="#here">
